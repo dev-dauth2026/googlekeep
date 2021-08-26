@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body {
+ height: 100%;
+ position: relative;
+ 
+}
+.header{
+    height: 10vh;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(238, 176, 5);
+    margin-top: 0;
+    padding-left: 5px;
+}
+
+.main_div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5rem 0;
+    
+}
+
+.center_div{
+    position: relative;
+    height: 100%;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 5px rgb(197, 192, 192);
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+input{
+    height: 50px;
+    width: 100%; 
+    text-align: left;
+    border: none;
+   outline: none;  
+}
+ textarea{
+    height: 50px;
+    width: 100%; 
+    text-align: left;
+    border: none;
+   outline: none;  
+}
+input{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+textarea{
+    font-size: 15px;
+    text-align: left;
+}
+
+Button{
+    position: absolute;
+    height: 40px;
+    width:40px;
+    border-radius: 50px;
+    box-shadow:5px 5px 15px -2px rgb(228, 220, 220);
+    background-color:rgb(238, 176, 5); 
+    margin: 3px;
+    float: right;
+}
+
+.add_icon{
+    height: 40px;
+    width:40px;
+    color:  rgb(238, 176, 5);
+}
+Button:hover{
+    background-color:rgb(238, 176, 5); 
+}
+.add_icon:hover{
+    
+    color:  white;
+}
+
+.note_div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+.note{
+    position: relative;
+    height: auto;
+    width: 200px;
+    border-radius: 15px;
+    background-color: rgb(224, 164, 164);
+    margin:0 0 3rem 3rem;
+    padding: 10px 10px;
+}
+.delete_icon{
+    color:white;
+} 
+.footer{
+    
+    width: 100%;
+    bottom: 0;
+    
+    
+    
+    
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:10px 10px 10px 10px;
+    background-color: rgb(175, 171, 171);
+   }
